@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		.center{
+			text-align:center;
+		}
+		.right{
+			text-align:right;
+		}
+		.green{
+			color:white;
+			background-color:green;
+		}
+		.blue{
+			color:white;
+			background-color:blue;
+		}
+	</style>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<h1 style=text-align:center;>HTML Assignment #3</h1>
 
+	<!-- Table 1 -->
+	<table class="middle"border="1" style=width:100%>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+		</tr>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+		</tr>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+		</tr>
+	</table><br>
+
+	<!-- Table 2 -->
+	<table class="middle" border="1" style=width:100%>
+		<tr>
+			<td colspan="6">Single Cell Spanning All Columns</td>
+		</tr>
+		<tr>
+			<td rowspan="4">2.1</td><td>2.2</td><td>2.3</td><td>2.4</td><td>2.5</td><td>2.6</td>
+		</tr>
+		<tr>
+			<td>3.1</td><td colspan="3">3.2</td><td>3.5</td>
+		</tr>
+		<tr>
+			<td>4.1</td><td colspan="3">4.2</td><td>4.5</td>
+		</tr>
+		<tr>
+			<td>5.1</td><td>5.2</td><td>5.3</td><td>5.4</td><td>5.5</td>
+		</tr>
+		<tr>
+			<td colspan="6">6.1</td>
+		</tr>
+	</table><br>
+
+	<!-- Table 3 -->
+	<table border="1" style=width:100%;>
+		<tr class="green">
+			<td>green</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg">
+			</td>
+		</tr>
+		<tr>
+			<td class="blue">blue</td>
+		</tr>
+	</table>
 </body>
 
 </html>
